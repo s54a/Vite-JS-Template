@@ -1,3 +1,6 @@
 import "./style.css";
 
-document.body.innerHTML = "<h1>Hello World</h1>";
+document.querySelector("body").innerHTML = `
+    <h1>Project Starter</h1>
+    Hello World from JS
+`;
